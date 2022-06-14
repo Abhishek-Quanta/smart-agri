@@ -1,0 +1,25 @@
+{
+  "name": "linkedapi",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.14.2"
+  },
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

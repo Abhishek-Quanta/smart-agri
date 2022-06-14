@@ -1,0 +1,13 @@
+extends layout
+block content
+	script(src='javascripts/script.js' defer)
+	h3(style="padding:0 1em;") Welcome to Smart Agri
+	.dash
+		div
+			h4 Manual Pump
+			if(data=='1')
+				button.clicked Turn OFF
+			else
+				button Turn ON
+			h4 Soil Moisture
+		div.circle
